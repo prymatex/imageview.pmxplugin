@@ -1,0 +1,11 @@
+{
+    "id": "org.prymatex.imageview",
+    "name" : "Image Viewer",
+    "version" : "1.0",
+    "website" : "www.prymatex.org",
+    "author" : "Prymatex",
+    "description" : "",
+    "depends" : [],
+    "register": "registerPlugin",
+    "unregister": "unregisterPlugin"
+}
