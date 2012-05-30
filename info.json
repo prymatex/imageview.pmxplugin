@@ -6,6 +6,7 @@
     "author" : "Prymatex",
     "description" : "",
     "depends" : [],
+    "module": "imageview",
     "register": "registerPlugin",
     "unregister": "unregisterPlugin"
 }
