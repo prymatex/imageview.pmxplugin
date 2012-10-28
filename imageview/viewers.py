@@ -6,8 +6,8 @@ from PIL import Image
 import random
 from bisect import bisect
 
-from PyQt4 import QtCore, QtGui
-from prymatex.core.plugin.editor import PMXBaseEditor
+from prymatex.qt import QtCore, QtGui
+from prymatex.core import PMXBaseEditor
 
 class PMXImageViewer(QtGui.QWidget, PMXBaseEditor):
     ZOOM_MAX = 2
