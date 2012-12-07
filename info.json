@@ -1,7 +1,7 @@
 {
     "id": "org.prymatex.imageview",
     "name" : "Image Viewer",
-    "icon": "share/Icons/viewer.jpeg"
+    "icon": "share/Icons/viewer.jpeg",
     "version" : "1.0",
     "website" : "www.prymatex.org",
     "author" : "Prymatex",
