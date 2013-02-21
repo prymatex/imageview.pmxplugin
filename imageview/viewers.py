@@ -94,7 +94,7 @@ class PMXImageViewer(QtGui.QWidget, PMXBaseEditor):
             print "No es una imagen valida"
         
     @classmethod
-    def contributeToMainMenu(cls, addonsClasses):
+    def contributeToMainMenu(cls):
         return { "Image": { 'title': "Images", 
                             'items': [ 
                             {   'title': "Convert To ASCII",
