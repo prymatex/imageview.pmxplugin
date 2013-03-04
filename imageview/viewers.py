@@ -95,16 +95,18 @@ class PMXImageViewer(QtGui.QWidget, PMXBaseEditor):
         
     @classmethod
     def contributeToMainMenu(cls):
-        return { "Image": { 'title': "Images", 
-                            'items': [ 
-                            {   'title': "Convert To ASCII",
-                                'callback': cls.on_actionConvertToASCII_toggled
-                            },
-                            { 'title': "Opcion2" },
-                            { 'title': "Opcion3" },
-                            ]
-                        }
-                }
+        return { "Image": { 
+            'name': 'images',
+            'text': "Images", 
+            'items': [ {
+                'name': 'converToASCII',
+                'text': "Convert To ASCII",
+                'callback': cls.on_actionConvertToASCII_toggled
+                },
+                { 'text': "Opcion2" },
+                { 'text': "Opcion3" }]
+            }
+        }
              
     def on_sliderZoom_sliderReleased(self):
         value = self.sliderZoom.value()
