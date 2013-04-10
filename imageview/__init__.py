@@ -4,7 +4,7 @@
 from imageview.viewers import PMXImageViewer
 
 def registerPlugin(manager):
-    manager.registerEditor(PMXImageViewer)
+    manager.registerComponent(PMXImageViewer)
     
 def unregisterPlugin(manager):
     pass
